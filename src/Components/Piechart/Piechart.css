@@ -1,0 +1,98 @@
+.piechart {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem;
+    flex: 1;
+}
+
+.containerpie {
+    display: flex;
+    justify-content: space-between;
+    width: 34vw;
+    padding: 25px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.pieh1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.prdtdetail {
+    display: flex;
+    flex-direction: column;
+    width: 64%;
+}
+
+.ctnrflex {
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    margin: 1rem 0 0 0;
+}
+
+.emptprdt {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #98D89E;
+}
+
+.prdtdtls {
+    width: 90%;
+}
+
+.prdtdtls p {
+    /* font-family: 'lato'; */
+    font-style: normal;
+    font-size: 20px;
+    line-height: 17px;
+    color: #000000;
+    padding-bottom: 8px;
+}
+
+.schedules {
+    width: 34vw;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.scdltag {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin: 1rem;
+}
+
+.meeting {
+    display: flex;
+    justify-content: space-between;
+}
+
+.emptscdle {
+    height: 70px;
+    border: 5px solid #9BDD7C;
+}
+
+.scdldtls {
+    width: 28vw;
+}
+
+.scdldtls p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #666666;
+    padding: 5px;
+}

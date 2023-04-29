@@ -1,0 +1,38 @@
+.sidenav {
+    background: #000000;
+    border-radius: 30px;
+    color: white;
+    width: 17.5rem;
+    height: 100vh;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.sidenavH1 {
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+.boardLi {
+    margin: 1rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.hlpCont {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin-top: 3rem;
+    padding: 1rem;
+}

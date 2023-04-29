@@ -1,0 +1,142 @@
+.signup {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.board {
+    width: 40vw;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    color: white;
+    background: #000000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4.5rem;
+    line-height: 88px;
+}
+
+.form-signup {
+    width: 60vw;
+    height: 100vh;
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.para-1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 44px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+.para-2 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 19px;
+    color: #000000;
+    margin-bottom: 1rem;
+
+}
+
+.gogl-appl {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gogl-signup {
+    background: #FFFFFF;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+
+    color: #858585;
+    gap: 5px;
+}
+
+.signup-submit {
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.signup-submit input {
+    /* width: 5vw; */
+    margin: 1rem 0;
+    padding: 5px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    background: #F5F5F5;
+    border: 2px solid #F5F5F5;
+    border-radius: 10px;
+    color: #000000;
+    outline: none;
+}
+
+.signup-submit label {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.frgtPass {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #346BD5;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+.signIn-btn {
+    background: #000000;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 1rem 0;
+    padding: 8px;
+    border: 2px solid black;
+    
+}

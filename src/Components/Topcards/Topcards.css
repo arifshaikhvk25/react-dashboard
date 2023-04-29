@@ -1,0 +1,43 @@
+.Topcard-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2rem;
+    margin: 2rem;
+
+}
+
+.card1 {
+    background: #DDEFE0;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.crd1icon{
+    width: 100%;
+    /* margin: 10px; */
+    padding-left: 8rem;
+}
+
+.ltr {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 3px;
+}
+
+.num {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+    margin-top: 3px;
+}
+
+.info{
+    margin-left: 1rem;
+}
